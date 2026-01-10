@@ -1,0 +1,19 @@
+[
+  {
+    "category": "CURTAINS",
+    "items": [
+      {
+        "name": "Diamond Series",
+        "pdf": "/Diamond-Round-Series.pdf"
+      },
+      {
+        "name": "Marble Series",
+        "pdf": "/Marble-Series.pdf"
+      },
+      {
+        "name": "Wooden Series",
+        "pdf": "/Wooden-Series.pdf"
+      }
+    ]
+  }
+]

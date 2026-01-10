@@ -1,0 +1,15 @@
+[
+  {
+    "category": "WPC - LOUVERS",
+    "items": [
+      {
+        "name": "Dario Series",
+        "pdf": "../Data/AllPdf/Louvers/Louvers.pdf"
+      },
+       {
+        "name": "Meesa Series",
+        "pdf": "../Data/AllPdf/Louvers/Louvers2.pdf"
+      }
+    ]
+  }
+]

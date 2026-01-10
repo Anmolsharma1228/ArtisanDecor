@@ -1,0 +1,35 @@
+[
+  {
+    "category": "WALLPAPERS",
+    "items": [
+      {
+        "name": "Rose Gold Series",
+        "pdf": "../Data/AllPdf/Wallpaper/Rose Gold.pdf"
+      },
+      {
+        "name": "Jaipur Series",
+        "pdf": "../Data/AllPdf/Wallpaper/Jaipur.pdf"
+      },
+      {
+        "name": "Sanskriti Series",
+        "pdf": "../Data/AllPdf/Wallpaper/Sanskriti.pdf"
+      },
+      {
+        "name": "Havana Series",
+        "pdf": "../Data/AllPdf/Wallpaper/Havana.pdf"
+      },
+      {
+        "name": "Itihaas Series",
+        "pdf": "../Data/AllPdf/Wallpaper/Itihaas.pdf"
+      },
+      {
+        "name": "Simbha Series",
+        "pdf": "../Data/AllPdf/Wallpaper/Simbha.pdf"
+      },
+      {
+        "name": "Hilton Series",
+        "pdf": "../Data/AllPdf/Wallpaper/Hilton.pdf"
+      }
+    ]
+  }
+]
