@@ -1,5 +1,12 @@
+"use client"
 import CatalogueCard from "../components/CatalogueCard";
 import CatalogueData from "../../public/Data/CatalogueData";
+import { motion } from "framer-motion";
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0 },
+};
 
 export default function CataloguePage() {
   return (
@@ -9,7 +16,10 @@ export default function CataloguePage() {
         {/* Soft artisan gradient */}
         <div className="absolute inset-0 bg-linear-to-br from-orange-50 via-white to-green-50" />
 
-        <div className="relative max-w-5xl mx-auto px-6 py-16 text-center">
+        <motion.div variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          transition={{ duration: 0.7, ease: "easeOut" }} className="relative max-w-5xl mx-auto px-6 py-16 text-center">
           <p className="uppercase tracking-[0.3em] text-xs text-orange-600 mb-4">
             Artisan Decor
           </p>
@@ -25,7 +35,7 @@ export default function CataloguePage() {
           <div className="mt-6 inline-flex items-center gap-2 border border-orange-200 px-6 py-2 rounded-full text-sm text-orange-700 bg-white/70 backdrop-blur">
             Click on a series to explore
           </div>
-        </div>
+        </motion.div>
       </section>
 
       {/* Catalogue Grid */}

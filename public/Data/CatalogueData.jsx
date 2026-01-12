@@ -103,10 +103,28 @@ const CatalogueData = [
     items: [
       {
         name: "Revolt Series",
-        pdf: "https://drive.google.com/file/d/15xcGYnbY1RPProvOW_L-MvrCKboE8NXH/view?usp=sharing",
+        pdf: "https://drive.google.com/file/d/1VqYU3HRlSXhlr0u07ZTj6-q5-lTgpTnR/view?usp=sharing",
       },
     ],
   },
+  {
+    id: 9,
+    category: "KIDS - WALLPAPER",
+    items: [
+     {
+     name: "Kids Collection",
+     pdf: "https://drive.google.com/file/d/1Q5OxDtI9nfAxmrXqpA2gL62NpoJoMW5y/view?usp=sharing"
+     },
+     {
+      name: "Kids Customize Wallpaper",
+      pdf: "https://drive.google.com/file/d/1XyAe645i0uWMDTk1f18o0_zzfQXphXgu/view?usp=sharing"
+     },
+     {
+      name: "Kids Wallpaper",
+      pdf: "https://drive.google.com/file/d/1M8ldHSFsQ5Dag6E2oXSRThusixGJ23dt/view?usp=sharing"
+     }
+    ]
+  }
 ];
 
 export default CatalogueData;

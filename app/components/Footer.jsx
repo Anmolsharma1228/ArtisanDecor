@@ -2,6 +2,7 @@ import React from "react";
 import { MapPinCheck } from "lucide-react";
 import { PhoneCall } from "lucide-react";
 import { MailCheck } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -13,12 +14,20 @@ const Footer = () => {
             Quick Links
           </h2>
           <ul className="space-y-2">
-            {["Services", "Products", "Catalogues", "Work Gallery"].map((item, i) => (
-              <li
-                key={i}
-                className="cursor-pointer transition-all duration-300 hover:text-[#D32F2F] hover:translate-x-1"
-              >
-                {item}
+            {["About Us", "Catalogues", "Work Gallery"].map((item, i) => (
+              <li key={i}>
+                <Link
+                  href={
+                    item === "About Us"
+                      ? "/about"
+                      : item === "Catalogues"
+                      ? "/catalogue"
+                      : "/ourwork"
+                  }
+                  className="cursor-pointer transition-all duration-300 hover:text-[#D32F2F] hover:translate-x-1 inline-block"
+                >
+                  {item}
+                </Link>
               </li>
             ))}
           </ul>
@@ -26,20 +35,30 @@ const Footer = () => {
 
         {/* Collections */}
         <div>
-          <h2 className="text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#2E7D32]">
-            Collections
-          </h2>
-          <ul className="space-y-2">
-            {["Wall Panels", "Ceilings", "Custom Designs"].map((item, i) => (
-              <li
-                key={i}
-                className="cursor-pointer transition-all duration-300 hover:text-[#2E7D32] hover:translate-x-1"
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
+  <h2 className="text-lg font-semibold mb-4 relative inline-block after:absolute after:left-0 after:-bottom-1 after:w-8 after:h-0.5 after:bg-[#2E7D32]">
+    Collections
+  </h2>
+
+  <ul className="space-y-2">
+    {[
+      { label: "Wallpapers", href: "/product/wallpaper" },
+      { label: "WPC Louvers", href: "/product/wpc-louvers" },
+      { label: "PVC Panel", href: "/product/pvc-panels" },
+      { label: "Fluted Panel", href: "/product/eco-fluted" },
+      { label: "UV Sheet", href: "/product/uv-sheets" },
+    ].map((item, i) => (
+      <li key={i}>
+        <Link
+          href={item.href}
+          className="inline-block cursor-pointer transition-all duration-300 hover:text-[#2E7D32] hover:translate-x-1"
+        >
+          {item.label}
+        </Link>
+      </li>
+    ))}
+  </ul>
+</div>
+
 
         {/* Contact */}
         <div>

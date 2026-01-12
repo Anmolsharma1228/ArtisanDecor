@@ -1,5 +1,6 @@
 import "./globals.css";
 import {Palyfair_Display, Playfair, Playfair_Display} from 'next/font/google';
+import WhatsAppIcon from '../app/components/WhatsAppIcon'
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer'
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar/>
         {children}
+        <WhatsAppIcon/>
         <Footer/>
       </body>
     </html>
