@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+
+body {
+  background-color: #f8f6efd6;
+  font-family: 'playfair display';
+}
+
+.hero-slide {
+  position: relative;
+}
+
+/* Hide arrows on mobile */
+@media (max-width: 768px) {
+  .hero-swiper .swiper-button-next,
+  .hero-swiper .swiper-button-prev {
+    display: none !important;
+  }
+}
