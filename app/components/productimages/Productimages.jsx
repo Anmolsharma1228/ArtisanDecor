@@ -178,12 +178,12 @@ export const curtains = [
 ];
 
 export const collection = [
-  {id: 1, image: "/images/wf1.avif", title: ""},
-  {id: 2, image: "/images/wf2.avif", title: ""},
-  {id: 3, image: "/images/wf3.avif", title: ""},
-  {id: 4, image: "/images/wf4.avif", title: ""},
-  {id: 5, image: "/images/wf5.avif", title: ""},
-  {id: 6, image: "/images/wf6.avif", title: ""},
+  {id: 1, image: "/images/wf12.avif", title: "Wood Finishe Inter Locking Flooring"},
+  {id: 2, image: "/images/wf2.avif", title: "Natural Wood Plank Flooring"},
+  {id: 3, image: "/images/wf3.avif", title: "Reclaimed Wood Flooring"},
+  {id: 4, image: "/images/wf4.avif", title: "Wood-Look Laminate Flooring"},
+  {id: 5, image: "/images/wf15.avif", title: "Herringbone Pattern Wood Flooring"},
+  {id: 6, image: "/images/wf6.avif", title: "Outdoor Wooden Deck Flooring Panel"},
 ];
 
 export const carpet = [

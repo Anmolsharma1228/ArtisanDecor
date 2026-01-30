@@ -1,17 +1,20 @@
-import React from 'react'
-import { products } from '../Data/ProductPrice'
+import { products } from "../Data/ProductPrice";
 
-export default function generateproductListMessage() {
+const phone = "919711119771";
 
-let msg = "Hello please select your product:\n\n";
+export default function generateProductListMessage() {
+  let msg = "Hello \nPlease select a product to view price:\n\n";
 
-products.forEach((p)=>{
-  msg += `${p.name}\n`;
-  msg +=  `View Price: https://wa.me/919667384928?text=${encodeURIComponent(
-      `Hi, I want price details of ${p.name}`
-    )}\n\n`;
-});
+  products.forEach((p) => {
+    const priceMessage = `Product: ${p.name}\nPrice: ${p.price}`;
 
+    const priceLink = `https://wa.me/${phone}?text=${encodeURIComponent(
+      priceMessage
+    )}`;
+
+    msg += `${p.name}\n`;
+    msg += `View Price: ${priceLink}\n\n`;
+  });
 
   return encodeURIComponent(msg);
 }

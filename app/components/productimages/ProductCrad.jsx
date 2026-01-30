@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function ProductCard({ card }) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-8">
       {card.map((item, index) => (
         <div
           key={item.id}
           className="group relative overflow-hidden rounded-2xl"
         >
           {/* IMAGE */}
-          <div className="relative h-70 w-full">
+          <div className="relative h-60 sm:h-70 w-full">
             <Image
               src={item.image}
               alt={item.title}
