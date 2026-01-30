@@ -1,6 +1,6 @@
 "use client"
 import CatalogueCard from "../components/CatalogueCard";
-import CatalogueData from "../../public/Data/CatalogueData";
+import CatalogueData from "../components/Data/CatalogueData";
 import { motion } from "framer-motion";
 
 const fadeUp = {

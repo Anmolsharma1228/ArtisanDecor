@@ -176,3 +176,57 @@ export const curtains = [
     text: "Ideal for living rooms and bedrooms, these curtains frame windows beautifully while maintaining an open, refreshing feel.",
   },
 ];
+
+export const collection = [
+  {id: 1, image: "/images/wf1.avif", title: ""},
+  {id: 2, image: "/images/wf2.avif", title: ""},
+  {id: 3, image: "/images/wf3.avif", title: ""},
+  {id: 4, image: "/images/wf4.avif", title: ""},
+  {id: 5, image: "/images/wf5.avif", title: ""},
+  {id: 6, image: "/images/wf6.avif", title: ""},
+];
+
+export const carpet = [
+  {id: 1, image: "/images/cr1.avif", title: "Classic Wool Carpet"},
+  {id: 2, image: "/images/cr2.avif", title: "Modern Geometric Carpet"},
+  {id: 3, image: "/images/cr3.avif", title: "Luxury Velvet Carpet"},
+  {id: 4, image: "/images/cr4.avif", title: "Rustic Jute Carpet"},
+  {id: 5, image: "/images/cr5.avif", title: "Contemporary Abstract Carpet"},
+  {id: 6, image: "/images/cr6.avif", title: "Elegant Silk Carpet"}
+];
+
+export const gymflooring = [
+  {id: 1, image: "/images/gy1.avif", title: "Durable Rubber Gym Flooring"},
+  {id: 2, image: "/images/gy2.avif", title: "Interlocking Foam Gym Mats"},
+  {id: 3, image: "/images/gy3.avif", title: "Vinyl Sports Flooring"},
+  {id: 4, image: "/images/gy4.avif", title: "Cushioned Gym Flooring"},
+  {id: 5, image: "/images/gy5.avif", title: "Eco-Friendly Cork Gym Flooring"},
+  {id: 6, image: "/images/gy6.avif", title: "High-Impact Gym Tiles"}
+];
+
+export const windowblinds = [
+  {id: 1, image: "/images/wb1.avif", title: "Classic Wooden Blinds"},
+  {id: 2, image: "/images/wb2.avif", title: "Modern Aluminum Blinds"},
+  {id: 3, image: "/images/wb3.avif", title: "Fabric Roller Blinds"},
+  {id: 4, image: "/images/wb4.avif", title: "Vertical Blinds"},
+  {id: 5, image: "/images/wb5.avif", title: "Day and Night Blinds"},
+  {id: 6, image: "/images/wb6.avif", title: "Motorized Window Blinds"}
+];
+
+export const pergola = [
+  {id: 1, image: "/images/prr1.jpeg", title: "Aluminum Pergola"},
+  {id: 2, image: "/images/pr2.avif", title: "Metal Pergola"},
+  {id: 3, image: "/images/pr3.avif", title: "Wooden Pergola"},
+  {id: 4, image: "/images/pr4.avif", title: "Retractable Pergola"},
+  {id: 5, image: "/images/pr5.avif", title: "Modern Pergola Design"},
+  {id: 6, image: "/images/pr6.avif", title: "Classic Garden Pergola"}
+];
+
+export const cladding = [
+  {id: 1, image: "/images/cl1.avif", title: "HPL Cladding"},
+  {id: 2, image: "/images/cl2.avif", title: "WPC Cladding"},
+  {id: 3, image: "/images/cl3.avif", title: "Composite Cladding"},
+  {id: 4, image: "/images/cl4.avif", title: "Metal Cladding"},
+  {id: 5, image: "/images/cl5.avif", title: "Wooden Cladding"},
+  {id: 6, image: "/images/cl6.avif", title: "Fiber Cement Cladding"}
+]

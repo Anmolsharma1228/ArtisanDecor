@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import ProductCard from '../productimages/ProductCrad'
 import { curtains } from '../productimages/Productimages'

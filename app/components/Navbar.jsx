@@ -28,9 +28,15 @@ export default function Navbar() {
       label: "Products",
       children: [
         { href: "/product/wallpaper", label: "Wallpaper" },
-        { href: "/product/all-panels", label: "All Type Of Panels" },
+        { href: "/product/carpet", label: "Carpet"},
+        { href: "/product/gym-flooring", label: "Gym Flooring"},
+        { href: "/product/window-blinds", label: "Window Blinds"},
+        { href: "pergola", label: "Pergola"},
+        { href: "cladding", label: "HPL, WPC, Cladding"},
+        { href: "", label: "Decking"},        
         { href: "/product/uv-sheets", label: "UV Sheets" },
-        { href: "/product/curtains", label: "Curtains"}
+        { href: "/product/curtains", label: "Curtains"},
+        { href: "/product/all-panels", label: "All Type Of Panels" },
       ],
     },
     { href: "/catalogue", label: "Catalogues" },
